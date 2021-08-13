@@ -1,0 +1,12 @@
+server:
+  port: 8006
+  compression:
+    enabled: true
+  servlet:
+    context-path: /spring-base-project
+  tomcat:
+    basedir: ./
+    uri-encoding: UTF-8
+    accesslog:
+      enabled: true
+      request-attributes-enabled: true
